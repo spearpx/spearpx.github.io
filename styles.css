@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0066cc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header input[type="search"] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.diagnostics {
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.diagnostics h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.status p, .check-status p {
+    margin: 5px 0;
+}
+
+.status span, .check-status span {
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button#runDiagnostics {
+    background-color: #28a745;
+}
+
+button#getReport {
+    background-color: #ccc;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.company-info, .events, .report-info {
+    margin-bottom: 20px;
+}
+
+.company-info h3, .events h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.support img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.report-info p {
+    margin: 5px 0;
+}
+
+.report-info .success {
+    color: green;
+}

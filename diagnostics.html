@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintain Master - Diagnostics Module</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maintain Master</h1>
+            <input type="search" placeholder="Search">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Preferences</a></li>
+                <li><a href="#">Stats</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="diagnostics">
+                <h2>Diagnostics Module</h2>
+                <div class="status">
+                    <p>Temperature: <a href="https://industrial.ubidots.com/app/dashboards/public/widget/PevNq5gUacoKTMBCmoo8G_2SUpMmbgNGH6H4aiK7zZM" target="_blank">View</a></p>
+                    <p>Humidity: <a href="https://industrial.ubidots.com/app/dashboards/public/widget/PevNq5gUacoKTMBCmoo8G_2SUpMmbgNGH6H4aiK7zZM" target="_blank">View</a></p>
+                    <p>Flow rate: <a href="https://industrial.ubidots.com/app/dashboards/public/widget/PevNq5gUacoKTMBCmoo8G_2SUpMmbgNGH6H4aiK7zZM" target="_blank">View</a></p>
+                    <p>Status</p>
+                    <p>Running</p>
+                </div>
+                <div class="check-status">
+                    <p>Checking... </p>
+                    <p>Time Elapsed: <span id="timeElapsed">6.4s</span></p>
+                </div>
+                <button id="runDiagnostics">Run Complete Diagnostics</button>
+                <button id="getReport">Get Report</button>
+            </section>
+            <aside>
+                <div class="company-info">
+                    <h3>Hubballi</h3>
+                    <p>TerraPark Productions Pvt. Ltd.</p>
+                    <p>Production Manager</p>
+                </div>
+                <div class="events">
+                    <h3>Events</h3>
+                    <p>No Events to Show</p>
+                </div>
+                <div class="report-info">
+                    <p>Last Run: <span>15 Days Ago</span></p>
+                    <p>Report Status: <span class="success">Generation Successful</span></p>
+                    <p>Total Reports Collected: <span>37</span></p>
+                    <p>Run Time: <span>107s</span></p>
+                </div>
+                <div class="support">
+                    <img src="support-icon.png" alt="Support">
+                </div>
+            </aside>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
